@@ -49,7 +49,7 @@ labels:
 ```toml tab="File (TOML)"
 # Redirect to https
 [http.middlewares]
-  [http.middlewares.test-redirectscheme.redirectScheme]
+  [http.middlewares.test-redirectscheme.redirectscheme]
     scheme = "https"
 ```
 
@@ -58,7 +58,7 @@ labels:
 http:
   middlewares:
     test-redirectscheme:
-      redirectScheme:
+      redirectscheme:
         scheme: https
 ```
 
